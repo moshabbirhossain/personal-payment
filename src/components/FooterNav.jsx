@@ -8,7 +8,7 @@ const FooterNav = () => {
     return (
         
         <div className='flex justify-between items-center p-3 bg-base-200 fixed z-30 bottom-0 right-0 left-0'>
-            <Link to={"/"} className='flex flex-col justify-center items-center'>
+            <Link to={"/home"} className='flex flex-col justify-center items-center'>
                 <IoHome className='w-6 h-6'/>
                 <h1 className='text-lg font-medium'>Home</h1>
             </Link>
